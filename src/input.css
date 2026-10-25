@@ -154,8 +154,8 @@ dialog::backdrop{background:rgba(10,8,6,.82);-webkit-backdrop-filter:blur(4px);b
 .hero .cta{animation-delay:.24s}
 .hero .soc{animation-delay:.36s}
 @supports(animation-timeline:view()){
-.rv{animation:rise linear backwards;animation-timeline:view();animation-range:entry 0% entry 35%}
-.sh h2{animation:slidein linear backwards;animation-timeline:view();animation-range:entry 0% entry 60%}
+.rv{animation:rise linear backwards;animation-timeline:view();animation-range:entry .01% entry 35%}
+.sh h2{animation:slidein linear backwards;animation-timeline:view();animation-range:entry .01% entry 60%}
 .tl::after{animation:grow linear backwards;animation-timeline:view();animation-range:entry 25% exit 55%}
 .ct.rv{animation-name:pop}
 }
